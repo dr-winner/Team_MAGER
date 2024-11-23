@@ -1,8 +1,9 @@
 const express = require('express');
-const { storeAssetData } = require('../controllers/dataController');
+const { storeAssetData, searchSymbols } = require('../controllers/dataController');
 
 const router = express.Router();
 
-router.post('/fetch', storeAssetData);
+router.get('/fetch', storeAssetData);
+router.get('/search', searchSymbols);
 
 module.exports = router;
