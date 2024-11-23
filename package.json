@@ -1,0 +1,19 @@
+{
+  "name": "team_mager",
+  "version": "1.0.0",
+  "description": "SingularityNet Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2"
+  }
+}
